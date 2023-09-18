@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		9CC5D1462AB8438E005B0F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1452AB8438E005B0F1E /* AppDelegate.swift */; };
 		9CC5D1482AB8438E005B0F1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1472AB8438E005B0F1E /* SceneDelegate.swift */; };
-		9CC5D14A2AB8438E005B0F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1492AB8438E005B0F1E /* ViewController.swift */; };
+		9CC5D14A2AB8438E005B0F1E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1492AB8438E005B0F1E /* CameraViewController.swift */; };
 		9CC5D14D2AB8438E005B0F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D14B2AB8438E005B0F1E /* Main.storyboard */; };
 		9CC5D14F2AB8438F005B0F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D14E2AB8438F005B0F1E /* Assets.xcassets */; };
 		9CC5D1522AB8438F005B0F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D1502AB8438F005B0F1E /* LaunchScreen.storyboard */; };
 		9CC5D15D2AB84390005B0F1E /* DemoCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D15C2AB84390005B0F1E /* DemoCameraTests.swift */; };
 		9CC5D1672AB84390005B0F1E /* DemoCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1662AB84390005B0F1E /* DemoCameraUITests.swift */; };
 		9CC5D1692AB84390005B0F1E /* DemoCameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1682AB84390005B0F1E /* DemoCameraUITestsLaunchTests.swift */; };
+		9CC5D1782AB85E7E005B0F1E /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1772AB85E7E005B0F1E /* GalleryViewController.swift */; };
+		9CC5D17A2AB864CF005B0F1E /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D1792AB864CF005B0F1E /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		9CC5D1422AB8438E005B0F1E /* DemoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5D1452AB8438E005B0F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC5D1472AB8438E005B0F1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CC5D1492AB8438E005B0F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CC5D1492AB8438E005B0F1E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		9CC5D14C2AB8438E005B0F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC5D14E2AB8438F005B0F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC5D1512AB8438F005B0F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		9CC5D1622AB84390005B0F1E /* DemoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5D1662AB84390005B0F1E /* DemoCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCameraUITests.swift; sourceTree = "<group>"; };
 		9CC5D1682AB84390005B0F1E /* DemoCameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CC5D1772AB85E7E005B0F1E /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		9CC5D1792AB864CF005B0F1E /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				9CC5D1452AB8438E005B0F1E /* AppDelegate.swift */,
 				9CC5D1472AB8438E005B0F1E /* SceneDelegate.swift */,
-				9CC5D1492AB8438E005B0F1E /* ViewController.swift */,
+				9CC5D1492AB8438E005B0F1E /* CameraViewController.swift */,
+				9CC5D1772AB85E7E005B0F1E /* GalleryViewController.swift */,
+				9CC5D1792AB864CF005B0F1E /* GalleryCollectionViewCell.swift */,
 				9CC5D14B2AB8438E005B0F1E /* Main.storyboard */,
 				9CC5D14E2AB8438F005B0F1E /* Assets.xcassets */,
 				9CC5D1502AB8438F005B0F1E /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC5D14A2AB8438E005B0F1E /* ViewController.swift in Sources */,
+				9CC5D14A2AB8438E005B0F1E /* CameraViewController.swift in Sources */,
+				9CC5D17A2AB864CF005B0F1E /* GalleryCollectionViewCell.swift in Sources */,
+				9CC5D1782AB85E7E005B0F1E /* GalleryViewController.swift in Sources */,
 				9CC5D1462AB8438E005B0F1E /* AppDelegate.swift in Sources */,
 				9CC5D1482AB8438E005B0F1E /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8LASM22T7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoCamera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8LASM22T7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoCamera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
