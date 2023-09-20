@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AVFoundation
+//import AVFoundation
 
 class CameraViewController: UIViewController {
 
@@ -14,6 +14,7 @@ class CameraViewController: UIViewController {
     @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var galleryViewButton: UIButton!
     
+    @IBOutlet weak var cameraView: UIImageView!
     private var imageVC: UIImagePickerController?
     
     override func viewDidLoad() {
@@ -28,6 +29,13 @@ class CameraViewController: UIViewController {
     
     
     @IBAction func captureImage(_ sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera){
+            imageVC?.takePicture()
+
+        } else{
+
+         //Camera not available.
+       }
     }
     
     func showCameraVC() {
